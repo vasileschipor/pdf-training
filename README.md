@@ -12,4 +12,6 @@ READ THIS FIRST!
 
 <h1>HOW TO USE THIS REPO</h1>
 
-1. Use CMD + SHIFT + F in VSCODE and look for "STEP 0" then go on to "STEP 1" where you need to finish all subpoints, and then move on and so on.
+Use CMD + SHIFT + F in VSCODE and look for "STEP 0" and do what it says then go on to "STEP 1" where you need to finish all subpoints, and then move on and so on.
+
+BE CAREFULL TO BE WORKING IN THE "APP" directory and not the "SOLUTION" one
