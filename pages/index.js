@@ -1,4 +1,4 @@
-// STEP 0 - MOVE FROM SOLUTION TO APP
+// STEP 0 - REPLACE IMPORT FROM SOLUTION TO APP
 // import { FirstFlowPageWrapper } from "../app/features";
 import { FirstFlowPageWrapper } from "../solution/features";
 
