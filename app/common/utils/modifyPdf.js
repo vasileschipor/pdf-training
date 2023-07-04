@@ -4,10 +4,9 @@ import { BASE_TEXT_STYLES } from "../constants/text-styles";
 import { loadPDF } from "./handle-pdf";
 
 // STEP 5.1 : Add coords import
+// ------------------------------------------
 // import { FIRST_FLOW_FIELDS_OPTIONS } from "../../features/first-flow/constants/field-options";
-
-// total page width: 595 / height 842
-// one pdf line has aprox 15px height
+// ------------------------------------------
 
 // STEP 5.2: Comment all drawText function calls from this function
 export async function modifyPdf(data) {
@@ -23,13 +22,14 @@ export async function modifyPdf(data) {
   // STEP 4.2: Replace all "firstPage.drawText" with "drawText" function that you uncommented earlier
 
   // STEP 1: Draw name text over fields
-
+  // ------------------------------------------
   // firstPage.drawText(data.name, {
   //   x: 230,
   //   y: 670,
   //   size: 16,
   //   color: rgb(0.95, 0.1, 0.1),
   // });
+  // ------------------------------------------
 
   // STEP 2.3 Draw county text over fields at these coords:
   // x: 450,
@@ -41,6 +41,8 @@ export async function modifyPdf(data) {
   //  ------------------------------
 
   // STEP 3.3 Draw city text over fields. (You need to find the coords yourself.)
+  // total page width: 595 / height: 842
+  // one pdf line has aprox 15px height
 
   // Insert code between lines
   //  ------------------------------
@@ -48,7 +50,7 @@ export async function modifyPdf(data) {
   //  ------------------------------
 
   // STEP 5.3: Uncomment the code below
-
+  // ------------------------------------------
   // Object.keys(data).forEach((key) => {
   //   drawText({
   //     page: firstPage,
@@ -56,13 +58,16 @@ export async function modifyPdf(data) {
   //     value: data[key],
   //   });
   // });
-  // STEP 5.4: City field is not working. Fix it. (If you can't find the coords, search for HINT)
+  // -----------------------------------------
+
+  // STEP 5.4: City field is not working. Find out why. (If you can't find the bug, search for HINT)
 
   const pdfBytes = await pdfDoc.save();
   return pdfBytes;
 }
 
 // STEP 4.1: Uncomment the drawText function
+// ------------------------------------------
 // const drawText = ({ page, options, value }) => {
 //   // draw X over checkbox if value is boolean
 //   if (typeof value === "boolean") {

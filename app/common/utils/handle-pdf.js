@@ -1,4 +1,4 @@
-import { PDFDocument, rgb } from "pdf-lib";
+import { PDFDocument } from "pdf-lib";
 
 export const displayPDF = (bytes) => {
   const blob = new Blob([bytes], { type: "application/pdf" });
