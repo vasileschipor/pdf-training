@@ -10,8 +10,6 @@ READ THIS FIRST!
 
 5. I've prepared a training flow for you guys hold on tight:
 
-6. Use CMD + SHIFT + F in VSCODE and look for "STEP 0" then go on to "STEP 1" where you need to finish all subpoints, and then move on and so on.
+<h1>HOW TO USE THIS REPO</h1>
 
-7. Enjoy.
-
-8. If you get stuck you can look into the solution folder.
+1. Use CMD + SHIFT + F in VSCODE and look for "STEP 0" then go on to "STEP 1" where you need to finish all subpoints, and then move on and so on.
