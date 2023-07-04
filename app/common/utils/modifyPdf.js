@@ -13,6 +13,11 @@ import { loadPDF } from "./handle-pdf";
 export async function modifyPdf(data) {
   const pdfDoc = await loadPDF(PDF_URLS.firstPdf);
 
+  if (Object.keys(data).length === 0) {
+    const pdfBytes = await pdfDoc.save();
+    return pdfBytes;
+  }
+
   const pages = pdfDoc.getPages();
   const firstPage = pages[0];
 
@@ -23,7 +28,7 @@ export async function modifyPdf(data) {
   //   y: 670,
   //   size: 16,
   //   color: rgb(0.95, 0.1, 0.1),
-  // }
+  // });
 
   // STEP 2.3 Draw county text over fields at these coords:
   // x: 450,
