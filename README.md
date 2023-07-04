@@ -14,4 +14,6 @@ READ THIS FIRST!
 
 Use CMD + SHIFT + F in VSCODE and look for "STEP 0" and do what it says then go on to "STEP 1" where you need to finish all subpoints, and then move on and so on.
 
+After every step you should go back to the app and see how it changed.
+
 <h4>BE CAREFULL TO BE WORKING IN THE "APP" directory and not the "SOLUTION" one <h2>
