@@ -20,6 +20,7 @@ export async function modifyPdf(data) {
 
   const pages = pdfDoc.getPages();
   const firstPage = pages[0];
+  // STEP 4.2: Replace all "firstPage.drawText" with "drawText" function that you uncommented earlier
 
   // STEP 1: Draw name text over fields
 
@@ -61,7 +62,7 @@ export async function modifyPdf(data) {
   return pdfBytes;
 }
 
-// STEP 4: Uncomment the drawText function and replace all "firstPage.drawText" with "drawText" function
+// STEP 4.1: Uncomment the drawText function
 // const drawText = ({ page, options, value }) => {
 //   // draw X over checkbox if value is boolean
 //   if (typeof value === "boolean") {
